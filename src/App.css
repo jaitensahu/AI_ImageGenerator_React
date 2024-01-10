@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  /* background-image: url("https://assets-global.website-files.com/61845f7929f5aa517ebab941/6440f9477c2a321f0dd6ab61_How%20Artificial%20Intelligence%20(AI)%20Is%20Used%20In%20Biometrics.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* background-color: whi; */
+  /* color: white; */
+  height: 100vh;
+}
+.App{
+
+}
+.inputBox{
+  width: 50%;
+  /* height: 30vh; */
+  margin: auto;
+  /* background-color: antiquewhite; */
+display: flex;
+justify-content: space-between;
+margin: 30px auto 30px ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputBox textarea{
+  width: 80%;
+  padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputBox button{
+  padding: 10px 25px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.image{
+  /* margin-top: ; */
+  width: 50%;
+  /* height: 70vh; */
+  /* height: 100%; */
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.image img{
+  width: 80%;
+  /* height: 100%; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  text-align: center;
+  margin-top: 30px;
 }
